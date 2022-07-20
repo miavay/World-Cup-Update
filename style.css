@@ -2,7 +2,7 @@
 first section
 --------------- */
 body{
-    font-family: 'Inconsolata', monospace
+    font-family: 'Inconsolata', monospace;
 }
 .container{
     background-color: #161616;
@@ -66,6 +66,7 @@ secont section started
     font-weight: 550;
     font-size: 15px ;
     cursor: pointer;
+    font-family: Marker Felt, fantasy;
 }
 .lives-buttons button:hover{
     background-color: red;
@@ -97,6 +98,12 @@ secont section started
 }
 .blog-info{
     padding-left: 10px ;
+
+}
+.blog-info p{
+    font-size: 17px;
+    font-weight: 600;
+    font-family: Marker Felt, fantasy;
 }
 .comment{
     display: flex;
@@ -105,7 +112,8 @@ secont section started
 }
 .comment p{
     cursor: pointer;
-    transition: 1s;
+    font-size: 14px;
+    font-family: Marker Felt, fantasy;
 }
 
 .comment div {
@@ -125,4 +133,46 @@ secont section started
 .transfer:hover{
     background-color: red;
     cursor: pointer;
+}
+
+/* Footer */
+.footer{
+    height: 380px;
+    background-color: #161616;
+    width: 100%;
+    margin: 0;
+}
+.footer h1{
+    padding-top: 100px;
+    text-align: center;
+    color: white;
+    font-size: 55px;
+}
+.footer hr{
+    width: 1000px;
+    color: white;
+}
+.links{
+    display: flex;
+    justify-content: center;
+    padding-top: 35px;
+    
+}
+.links a{
+    text-decoration: none;
+    padding: 15px;
+    color: white;
+    
+}
+.social-link{
+    display: flex;
+    justify-content: center;
+    padding-top: 18px;
+
+}
+.social-link a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    
 }
