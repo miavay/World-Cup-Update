@@ -1,0 +1,40 @@
+/* ------------
+first section
+--------------- */
+.container{
+    background-color: #161616;
+    margin: 35px 60px 0px 60px;
+    border-radius: 8px;
+    
+    
+}
+
+.first-page{
+    display: flex;
+    justify-content: space-between;
+} 
+.details{
+    padding: 30px 0px 100px 80px;
+}
+.title{
+    font-size: 70px;
+    color: #FFFFFF;
+}
+
+.player img{
+    width: 581px;
+    height: 613px;
+    padding: 30px 30px 0px 30px;
+    padding-top: 30px;
+}
+.first-button{
+    padding: 15px 35px;
+    margin-top:25px;
+    background-color: #d61212;
+    border: 0px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: URW Chancery L, cursive;
+    font-weight: 500;
+}
+
