@@ -116,7 +116,7 @@ secont section started
     font-family: Marker Felt, fantasy;
 }
 
-.comment div {
+.comment div{
     padding-right: 40px;
     padding-left: 15px;
 }
@@ -177,21 +177,66 @@ secont section started
     
 }
 
-/*------------
+/* ------------
  mobile device
 ---------------- */
 
-/* @media screen and (max-width:688px) {
+@media screen and (max-width:688px) {
         .container{
             width: 100%;
+            margin: 0;
+            height: 850px;
+        }
+        .player img{
+            width: 90%;
+            height:90%;
+            margin: 0;
+            padding-top: 0;
+        
+        }
+        .title{
+            font-size: 50px;
+            margin-top: 0px;
+        }
+        .details{
+            margin: 0 10px;
+            margin-top: 15px;
+            padding-left:10px ;
+            padding-top: 15px;
         }
         .first-page{
-            grid-template-columns: repeat(1,1fr);
             display: grid;
+            grid-template-columns: repeat(1,1fr);
         }
-        
+        .show{
+            flex-direction: column;
+        }
+        .live-videos{
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+        }
+        .comment div{
+            padding-right: 0;
+        }
+        .footer hr{
+            width: 80%;
+        }
+       .footer h1{
+        padding-top: 20px;
+       }
+       .links{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        justify-items: center;
+       }
+       .links div{
+        padding: 5px;
+       }
+       #button{
+        background-color: red;
+    }
 
-    } */
+    }
 
     /*----------------------
              Tablet
@@ -201,10 +246,52 @@ secont section started
 @media screen and (min-width:600px) and (max-width:992px){
     .container{
         width: 100%;
+        margin: 0;
+
+    }
+    .details{
+        margin: 0 10px;
+        margin-top: 15px;
+        padding-left:10px ;
+        padding-top: 15px;
+    }
+    .lives-buttons{
+        align-items: center;
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        color: rgb(209, 29, 29);
     }
 
-        .show{
-             grid-template-columns: repeat(2,1fr);
-        }
-      
-     }
+    .lives-buttons a{
+          background: rgb(255, 255, 255);
+          border-radius: 5px;
+          color: red;
+    }
+    .lives-buttons a button{
+       background-color: rgb(156, 156, 156);
+       transition: .5s;
+    }
+    .show{
+        display: grid;
+    }
+    .live-videos{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .footer hr{
+        width: 400px;
+    }
+ 
+    .player img{
+        padding: 0;
+        width: 100%;
+        height:100%;
+
+    }
+    #button{
+        background-color: red;
+    }
+   
+    }
+
+
+    
