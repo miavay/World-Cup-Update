@@ -38,3 +38,18 @@ first section
     font-weight: 500;
 }
 
+
+/* -------------------
+secont section started
+-------------------- */
+
+.container-2{
+    margin: 35px 60px 0px 60px;
+}
+
+/* lives */
+.clock{
+    color: red;
+    background-color: red;
+}
+
