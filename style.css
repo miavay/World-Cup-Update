@@ -1,12 +1,13 @@
 /* ------------
 first section
 --------------- */
+body{
+    font-family: 'Inconsolata', monospace
+}
 .container{
     background-color: #161616;
     margin: 35px 60px 0px 60px;
     border-radius: 8px;
-    
-    
 }
 
 .first-page{
@@ -42,14 +43,86 @@ first section
 /* -------------------
 secont section started
 -------------------- */
+.show{
+    display: flex;
+}
+.lives-buttons{
+    display: grid;
+    margin-bottom: 25px;
+    background-color: #161616;
+    width: 250px;
+    border-radius: 5px;
+    margin-right: 30px;
+}
+
+.lives-buttons button{
+    width: 150px;
+    height: 40px;
+    margin: 20px 20px;
+    margin-left: 49px;
+    border: none;
+    border-radius: 4px;
+    transition: .5s;
+    font-weight: 550;
+    font-size: 15px ;
+    cursor: pointer;
+}
+.lives-buttons button:hover{
+    background-color: red;
+}
+
 
 .container-2{
     margin: 35px 60px 0px 60px;
 }
 
 /* lives */
-.clock{
-    color: red;
-    background-color: red;
+
+.blog{
+    border: 1px solid rgb(218, 215, 215);
+    width: 90%;
+    height: 310px;
+    padding-bottom: 60px;
+    margin-bottom: 30px;
+    border-radius: 12px;
+    
+}
+.blog img{
+    width: 100%;
+}
+.live-videos{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-left: 30px
+}
+.blog-info{
+    padding-left: 10px ;
+}
+.comment{
+    display: flex;
+    
+    
+}
+.comment p{
+    cursor: pointer;
+    transition: 1s;
 }
 
+.comment div {
+    padding-right: 40px;
+    padding-left: 15px;
+}
+.transfer{
+    margin-top: 18px;
+    margin-left: 12px;
+    padding: 8px 16px;
+    font-weight: 600;
+    background-color: white;
+    border: solid 1px gray ;
+    border-radius: 4px;
+    transition: .5s;
+}
+.transfer:hover{
+    background-color: red;
+    cursor: pointer;
+}
